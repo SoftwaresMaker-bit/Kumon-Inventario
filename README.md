@@ -7,7 +7,7 @@ El algoritmo para este proyecto sería el siguiente:
 -Entrada: Nombre, materia, nivel, numero de libros que hizo, Numero de libros que se llevo
 
 -Proceso: 
-    . Hacer ua función que haga lo siguiente
+    . Hacer una función que haga lo siguiente
     *Pedir el nombre del alumno
     *Pedir la materia que hizo   
     *Pedir el nivel en el que esta   
