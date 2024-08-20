@@ -5,6 +5,7 @@ Este proyecto consiste en un software de monitoreo de inventario. El objetivo es
 El algoritmo para este proyecto sería el siguiente:
 
 -Entrada: Nombre, materia, nivel, numero de libros que hizo, Numero de libros que se llevo
+
 -Proceso: 
     . Hacer ua función que haga lo siguiente
       *Pedir el nombre del alumno
@@ -15,6 +16,7 @@ El algoritmo para este proyecto sería el siguiente:
       *Vincular y juntar estas variables en una sola, por ejemplo en un Array
     .Con un While o un For loop repetir esta acción hasta que el usuario lo detenga.
     .Usar un for loop o un while para imprimir todos los resultados.
+
 -Salida: 
         .Nombre del alumno, Nivel en el que esta, material que se llevo y que hizo.
         . Nivel donde se dio material y el total de material restante en el centro.
