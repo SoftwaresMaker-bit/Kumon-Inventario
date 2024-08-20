@@ -9,12 +9,19 @@ El algoritmo para este proyecto sería el siguiente:
 -Proceso: 
     . Hacer ua función que haga lo siguiente
       *Pedir el nombre del alumno
+      
       *Pedir la materia que hizo
+      
       *Pedir el nivel en el que esta 
+      
       *Pedir el numero de libros que hizo
+      
       *Pedir el numero de libros que se llevo
+      
       *Vincular y juntar estas variables en una sola, por ejemplo en un Array
+      
     .Con un While o un For loop repetir esta acción hasta que el usuario lo detenga.
+    
     .Usar un for loop o un while para imprimir todos los resultados.
 
 -Salida: 
