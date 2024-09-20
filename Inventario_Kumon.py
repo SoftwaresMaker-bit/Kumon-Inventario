@@ -1,6 +1,26 @@
 #Limites de función pruebas: Por ahora, el programa no cuenta las series dadas y no le resta al inventario para dar un reporte de este.
 #Esto pues se necesitan Listas para dicha tarea.
 
+'''
+caso Prueba. Opción 1, Estudiante Sebastian Mansilla Cots, Materias 2 ( Matematicas y Español), nivel de mate F, serie llevada 121, nivel de esp H,
+serie llevada 31, no.
+
+Salida:
+
+Reporte del día 
+
+
+Sebastian Mansilla 
+mate nivel F serie 121
+esp nivel H serie 31
+
+cantidad de estudiantes en ingles 0
+cantidad de estudiantes en español 1
+cantidad de estudiantes en mate 1
+
+'''
+
+
 
 #Función que recibe la información de la tarea dada a cada estudiante(materia,niveles,series) y las registra.
 def pruebas():
