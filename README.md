@@ -7,9 +7,16 @@ El algoritmo para este proyecto sería el siguiente:
 Algoritmo función registro
 - entradas: Nombre del Estudiante, numero de materias que cursa, Materias, nivel de cada materia, series de cada materia.
 
-- Proceso: Definir variables iguales a 0 para cada materia y una variable string llamada Reporte del día. Iniciar un While con condición True. Adentro del loop while, Se pide el nombre del estudiante y la cantidad de materias que cursa. Se crea una var string llamada Reporte final. Un for loop con limite en la cantidad de materias cursadas pedira al usuario la materia del estudiante, el nivel de la materia y el numero de serie que se lleva el estudiante. Con condicionales ifs se verifica la materia y se le suma + 1 a la variable de la materia correspondiente. Los inputs dados por el usuario se van almacenando en la variable string Reporte Final y por ultimo en la variable string Reporte del Día. Una vez acabado el loop, se pregunta al usuario si quiere repetir para registrar a otro alumno. Si la respuesta es si, se repite el loop while. Por el contrario, se rompe el loop while con un Break y se imprime el Reporte del Día y las variables de las materias.
+- Proceso: Definir variables iguales a 0 para cada materia y una variable string llamada Reporte del día. Iniciar un While con condición True. Adentro del loop while, Se pide el nombre del estudiante y la cantidad de materias que cursa. Se crea una var string llamada Reporte final. Un for loop con limite en la cantidad de materias cursadas pedira al usuario la materia del estudiante, el nivel de la materia y el numero de serie que se lleva el estudiante. Con condicionales ifs se verifica la materia y se le suma + 1 a la variable de la materia correspondiente. Los inputs dados por el usuario se van almacenando en la variable string Reporte Final y por ultimo en la variable string Reporte del Día. Una vez acabado el loop, se pregunta al usuario si quiere repetir para registrar a otro alumno. Si la respuesta es si, se repite el loop while. Por el contrario, se rompe el loop while con un Break.
 
 - Salida: Nombre los estudiantes con sus respectivas materias, niveles y series. numero de alumnos en cada materia.
+
+Algoritmo Función Imprimir
+-Entradas: Matriz, Tipo
+
+proceso: Dependiendo del valor del Tipo es la naturaleza de la matriz. El tipo == 2 es para imprimir reportes. Para esto se forma un for loop con limite en len de el reporte. dentro de este for loop se crea otro for loop con limite en len(1,reporte[i]). Con este loop entramos al expediente del estudiante con su nombre y las listas de cada materia , pero queremos evitar imprimir el nombre muchas veces si este loop es igual a 1 se imprime el nombre. Añadimos dentro otro loop con limite en 3 pues la lista de cada materia solo puede tener 3 valores: Nombre de la materia, El nivel y El librito. En el caso de el Tipo ser 2 ahora es el Reporte del Día donde se contiene todos los reportes. Aqui para imrpimirlo solo se le agrega un loop al inicio del programa para los Reportes. Esto para poder ciclar dicho proceso en todos los reportes. 
+
+
 
 Algoritmo función menu
  proceso: se imprime las opciones de funciones
