@@ -8,12 +8,13 @@ Algoritmo main
 2.  Se inicia un while true con ifs anidados para llamar a cierta función dependiendo de lo que quiera hacer el usuario.
 3. Se le pregunta al usuario que función quiere ejectuar.
 4. La opción 1 ejecuta la función Registro, donde se registra mediante inputs el expediente del alumno con el material dado con su respecto nivel y materia.
-5. En la opción 1, la función Registro regresa las matrices de los estudiantes y las anida al Reporte final. Ademas regresa el material dado de cada materia y las anida en las matrizes de su materia correspondiente.
-6. La opción 2 llama a la función Imprimir pasando como argumentos la matriz Reporte Final y el modo de impresión. Como salida, imprime la matriz en forma de renglones y columnas y escribe en un archivo .txt el reporte final.
+5. En la opción 1, la función Registro regresa las matrices de los estudiantes y las anida al Reporte del día. Ademas regresa el material dado de cada materia y las anida en las matrizes de su materia correspondiente.
+6. La opción 2 llama a la función Imprimir pasando como argumentos la matriz Reporte del día y el modo de impresión. Como salida, imprime la matriz en forma de renglones y columnas y escribe en un archivo .txt el reporte final.
 7. La opción 3 llama a la función Libritos donde se imprimen de forma lineal las matrices de cada materia.
-8. La opción 4 anida las matrices de las 3 materias dentro de 1 solo matriz. Con un for loop con el nombre y la matriz como variables auxiliares y rango en la matriz de materias, llama una por una para pasar por la función Inventario. Dicha función cuenta la cantidad de libritos y libritos repetdios de cada materia e imprime la cantidad.
-9. La opción 5 termina el While loop con un Break
-10. En caso de recibir un input diferente, imprime un aviso y se vuelve a ejecturar el loop.
+8. La opción 4 anida las matrices de las 3 materias dentro de 1 sola matriz. Con un for loop con el nombre y la matriz como variables auxiliares y rango en la matriz de materias, llama una por una para pasar por la función Inventario. Dicha función cuenta la cantidad de libritos y libritos repetidos de cada materia e imprime la cantidad.
+9. La opción 5 ejecuta todas las funciones excepto Registro con una matriz hardcodeada como argumento. Esta función tiene como objetivo realizar pruebas de funcionamiento. 
+10. La opción 6 termina el While loop con un Break
+11. En caso de recibir un input diferente, imprime un aviso y se vuelve a ejecturar el loop.
 
 Instrucciones para uso del programa. 
 
