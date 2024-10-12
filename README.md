@@ -18,8 +18,10 @@ Algoritmo main
 
 Instrucciones para uso del programa. 
 
+Para poder ejectuar este programa se necesitará tener Python instalado o algun editor de texto que teng python como lenguaje de programación. Para instalar Python haga click en el siguiente enlace https://www.python.org/downloads/ escoja su sistema operativo e instale Python. 
+
 la mayoría de funciones necesitan de variables con datos que salen de la función Registro. No habrá un error en caso de ejecutar alguna función antes de utilizar Registro, sin embargo aparecerá salidas vacías. Por ende es importante empezar por la función Registro. 
 
 La función registro requiere que introduzcas en nombre del alumno, la cantidad de materias que cursa, el nivel en el que va en cada materia y el numero de librito que se lleva. Una vez registrado los alumnos necesarios escribir 'No' al final de la función. En caso de querer registrar nuevos alumnos se puede volver a ejecutar la función sin problema. Los registros anteriror no se borrarán. No es necesario escribir el nivel o la materia con mayúsculas pues el programa convierte la información en mayúsculas por defecto.
 
-La función Imprimir_Reporte generará un archivo tipo .txt donde se escribira el reporte con los expedientes de cada alumno. Como los expedientes se guardan en una matriz y esta función escribe el Reporte completo, No se perderan registros anteriores pues se vuelven a escribir en el archivo.  
+La función Imprimir_Reporte generará un archivo tipo .txt llamado Bitacora donde se escribira el reporte con los expedientes de cada alumno. Como los expedientes se guardan en una matriz y esta función escribe el Reporte completo, No se perderan registros anteriores pues se vuelven a escribir en el archivo.  
