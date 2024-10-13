@@ -223,39 +223,39 @@ def main():
                 Inventario(matriz, nombre)
                 
         elif option == 5:#Función pruebas con matriz hardcodeada, llama a todas la funciones menos registras pasando esta matriz
-            Reporte_pruebas = [[['Guillermo Rodriguez', ['ESP', 'D', 121], ['INGL', 'F', 81], ['MATE', 'E', 61]], ['Julian García', ['ESP', 'G', 71]]], [['Valentina Ruiz', ['ESP', 'G', 71], ['MATE', 'E', 61]]]]
-            Esp_pruebas = [[['D', 121], ['G', 71]], [['G', 71]]]
-            Ingl_pruebas =  [[['F', 81]]]
-            Mate_pruebas= [[['E', 61]], [['E', 61]]]
-            
-            print("Función Imprimir_Reporte \n",end = "")
-            Imprimir_Reporte(Reporte_pruebas,1) 
-            
-            print("Función libritos \n",end = "")
-            libritos(Esp_pruebas,Ingl_pruebas,Mate_pruebas)
-            
-            
-            print("Función simplificar_lista usada en la función Inventario \n")
-            matrices_a_aplanar =[[Esp_pruebas],[Ingl_pruebas],[Mate_pruebas]]
-            for i in range(len(matrices_a_aplanar)):
-                simplificar_lista(matrices_a_aplanar[i],1)
-                
-            print("Función Inventario \n",end = "")
-            matrices_prueba=[("Esp",Esp_pruebas), ("Ingl",Ingl_pruebas), ("Mate",Mate_pruebas)]
-            
-            matrices_prueba = [("Esp",Esp_pruebas), ("Ingl",Ingl_pruebas), ("Mate",Mate_pruebas)]
-            for nombre,matriz in matrices_prueba:
-                Inventario(matriz,nombre)
-            
-            
-            
-          
+            pruebas()
             
         elif option == 6:
             print("Finalizando Progama...")
             break
         else:
             print("Esa opción no es valida")
+
+
+def pruebas():
+    Reporte_pruebas = [[['Guillermo Rodriguez', ['ESP', 'D', 121], ['INGL', 'F', 81], ['MATE', 'E', 61]], ['Julian García', ['ESP', 'G', 71]]], [['Valentina Ruiz', ['ESP', 'G', 71], ['MATE', 'E', 61]]]]
+    Esp_pruebas = [[['D', 121], ['G', 71]], [['G', 71]]]
+    Ingl_pruebas =  [[['F', 81]]]
+    Mate_pruebas= [[['E', 61]], [['E', 61]]]
+            
+    print("Función Imprimir_Reporte \n",end = "")
+    Imprimir_Reporte(Reporte_pruebas,1) 
+            
+    print("Función libritos \n",end = "")
+    libritos(Esp_pruebas,Ingl_pruebas,Mate_pruebas)
+            
+            
+    print("Función simplificar_lista usada en la función Inventario \n")
+    matrices_a_aplanar =[[Esp_pruebas],[Ingl_pruebas],[Mate_pruebas]]
+    for i in range(len(matrices_a_aplanar)):
+        simplificar_lista(matrices_a_aplanar[i],1)
+                
+    print("Función Inventario \n",end = "")
+    matrices_prueba=[("Esp",Esp_pruebas), ("Ingl",Ingl_pruebas), ("Mate",Mate_pruebas)]
+            
+    matrices_prueba = [("Esp",Esp_pruebas), ("Ingl",Ingl_pruebas), ("Mate",Mate_pruebas)]
+    for nombre,matriz in matrices_prueba:
+        Inventario(matriz,nombre)
 
 main()
 
